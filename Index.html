@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="profile">
+        <img src="images/Profile.jpg" draggable="false">
+    </div>
+    <div class="profile-info">
+        <h1>Ethan Benjamin</h1>
+        <p class="about">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit
+            Atque iste tempore voluptatem nulla hic veritatis deserunt 
+            ratione debitis eos ipsa sunt 
+            explicabo pariatur perspiciatis error
+            soluta possimus totam quos culpa.
+        </p>
+        <div class="social">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-telegram"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-linkedin"></i>
+            <i class="fa fa-whatsapp"></i>
+        </div>
+        <h2>Services</h2>
+        <div class="service">
+            <img src="images/Service pic 1.jpg" draggable="false">
+            <p><b>Data Analysis</b></p>
+            <small>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit
+                Reprehenderit a nemo obcaecati deserunt impedit nobis autem 
+                tempore alias cupiditate
+            </small>
+        </div>
+        <div class="service">
+            <img src="images/Service pic 2.jpg" draggable="false">
+            <p><b>Data Analysis</b></p>
+            <small>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit
+                Reprehenderit a nemo obcaecati deserunt impedit nobis autem 
+                tempore alias cupiditate
+            </small>
+        </div><div class="service">
+            <img src="images/Service pic 3.jpg" draggable="false">
+            <p><b>Data Analysis</b></p>
+            <small>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit
+                Reprehenderit a nemo obcaecati deserunt impedit nobis autem 
+                tempore alias cupiditate
+            </small>
+        </div>
+        <h2>My Projects Work</h2>
+        <div class="Projects">
+            <img src="images/Project pic 1.jpg" draggable="false">
+            <img src="images/Project pic 2.jpg" draggable="false">
+            <img src="images/Project pic 3.jpg" draggable="false">
+            <img src="images/Project pic 4.jpg" draggable="false">
+            <img src="images/Project pic 5.jpg" draggable="false">
+            <img src="images/Project pic 6.jpg" draggable="false">
+        </div>
+        <div class="form-box">
+            <h2>Contact Me</h2>
+            <form >
+                <div class="input-group">
+                    <input type="text" placeholder="Frist name">
+                    <input type="text" placeholder="Last name">
+                </div>
+                <div class="text-area">
+                    <textarea name=""  rows="4" placeholder="Write your massage"></textarea>
+                </div>
+                <button type="submit" class="sub" title="Are you Sure">Send Message</button>
+            </form>
+        </div>
+        <div class="cont">
+            <a href="#"><i class="fa fa-envelope"></i><span>Ethanbenjamin@gmail.com</span></a>
+            <a href="#"><i class="fa fa-phone"></i><span>+9876543</span></a>
+        </div>
+        <div class="copy">
+            <p>
+                &copy; <span id="displayYear"></span> All Rights Reserved By
+                Amir Fawaz
+            </p>
+        </div>
+    </div>
+
+
+
+    <script>
+        function getYear() {
+        var currentDate = new Date();
+        var currentYear = currentDate.getFullYear();
+        document.querySelector("#displayYear").innerHTML = currentYear;
+}
+
+getYear();
+      
+    </script>
+</body>
+</html>
